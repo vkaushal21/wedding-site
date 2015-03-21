@@ -84,36 +84,19 @@ $(document).ready(function(){
 </div>
 <div style='display:none'>
   <div id="comments" class="clearfix">
-    <div class="comments-right">
-      <form action="#" method="post" id="commentform">
-        <div>Name:
-          <input type="text" name="name"/>
-        </div>
-        <div>Email
-          <input type="email" name="email"/>
-        </div>
-        <div>Comments:
-          <textarea name="comments" class="ckeditor"></textarea>
-        </div>
-        <div class="clearfix">
-          <input type="submit"  name="send" value="submit" id="submitbtn"/>
-        </div>
-      </form>
-    </div>
-    <div id="comment" class="comments-left">
-      <ul>
-        <?php  
-		$comments=readCommnets();            
-		if(count($comments)){ 
-			foreach($comments as $rows){?>
-        <li>
-          <h3><?php echo ucfirst($rows->name);?></h3>
-          <p><?php echo $rows->comments;?></p>
-          <h5><?php echo $rows->date;?></h5>
-        </li>
-        <?php }}?>
-      </ul>
-    </div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'eshita-vivek';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   </div>
 </div>
 </body>
