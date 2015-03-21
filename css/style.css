@@ -100,7 +100,7 @@ ul.menu li:first-child{
 }
 
 .menu li a {
-	rgba(124,124,124,0.4);
+	background-color:rgba(124,124,124,0.4);
     /*background-color: #818181;*/
     border-radius: 2px;
     color: #fff;
