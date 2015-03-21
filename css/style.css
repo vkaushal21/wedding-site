@@ -145,41 +145,11 @@ ul.menu li:first-child{
     height: 400px;
     overflow: auto;
     padding-right: 0;
-    width: 55%;
-}
-
-.comments-right {
-    box-sizing: border-box;
-    float: right;
-    padding-left: 15px;
-    width: 45%;
-}
-
-.comments-right form input, .comments-right form textarea {
-    border: medium none;
-    border-radius: 2px;
-    box-sizing: border-box;
-    margin-top: 5px;
-    padding: 8px 6px;
     width: 100%;
-}
-
-.comments-right form textarea {
-    height: 80px;
-    resize: vertical;
-}
-
-.comments-right form input[type="submit"] {
-    float: right;
-    width: auto;
 }
 
 .comments-left li h3 {
     margin-bottom: 5px;
-}
-
-.comments-right form div {
-    margin-top: 15px;
 }
 
 #comment p {
