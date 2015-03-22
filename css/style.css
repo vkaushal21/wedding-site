@@ -124,16 +124,19 @@ ul.menu li:first-child{
     background-color: #444;
 }
 
-.left-img {
-    float: left;
-    width: 30%;
+#invite {
+	height:auto;
+	overflow:hidden;
 }
 
-.right-content {
-    box-sizing: border-box;
+.invite-text {
+    float: left;
+    width: 60%;
+}
+
+.right-map {
     float: right;
-    padding-left: 20px;
-    width: 70%;
+    width: 30%;
 }
 
 
