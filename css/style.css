@@ -158,6 +158,7 @@ ul.menu li:first-child{
     overflow: auto;
     padding-right: 0;
     width: 100%;
+	color:rgba(33,220,43,1.00);
 }
 
 .comments-left li h3 {
