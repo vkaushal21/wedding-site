@@ -165,6 +165,10 @@ ul.menu li:first-child{
     margin-bottom: 5px;
 }
 
+#thanks-gaurav {
+	text-align:right;
+}
+
 #comment p {
     word-wrap: break-word;
 }
