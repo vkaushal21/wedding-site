@@ -86,7 +86,7 @@ ul{
 }
 
 ul.menu {
-    text-align: right;
+    text-align: left;
 	margin-top:15px;
 }
 
@@ -109,7 +109,11 @@ ul.menu li:first-child{
 }
 
 #eshita {
-	max-height: 400px;
+	max-height: 600px; 
+}
+
+#disqus_thread {
+	background:rgba(167,167,167,0.70);
 }
 
 #comments li {
